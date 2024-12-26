@@ -50,7 +50,7 @@ app.get("/coins/:coin_id", coin_id);
 
 app.get("/", (req, res) => {
  // res.sendFile(path.join(__dirname, "../frontend", "index.html"));
- console.log("buhahaha");
+ console.log('buhahaha');
 });
 
 app.listen(port, () => {
