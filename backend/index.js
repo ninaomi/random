@@ -17,7 +17,6 @@ const coin_id = async (req, res) => {
     current_price: null,
     price_change_percentage_24h: null,
     total_volume: null,
-    current_price: null,
   };
 
   const coinRequest = await fetch(
